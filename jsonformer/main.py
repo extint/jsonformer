@@ -1,6 +1,6 @@
 from typing import List, Union, Dict, Any
 
-from jsonformer.logits_processors import (
+from jsonformer.jsonformer.logits_processors import (
     NumberStoppingCriteria,
     OutputNumbersTokens,
     StringStoppingCriteria,
